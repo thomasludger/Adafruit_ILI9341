@@ -96,6 +96,9 @@ void setup(void) {
 
   tft.setRotation(1);
 
+  tft.setAttribute(UTF8_ENABLE, true);
+  tft.setAttribute(CP437_ENABLE, true);
+
 }
 
 void loop() {
